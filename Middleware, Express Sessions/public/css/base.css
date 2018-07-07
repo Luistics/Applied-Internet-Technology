@@ -1,0 +1,148 @@
+/* css */
+
+h1{
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+}
+
+#subwaydiv, #links, .formDiv{
+    text-align: center;
+}
+
+#subway{
+    padding: 1px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+
+footer > a{
+
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    padding: 0px 10px;
+    word-wrap: normal;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.middleHeader{
+    text-align: center;
+}
+
+hr{
+    width: 75%;
+    height: 3px;
+    border: none;
+    background-color: black;
+}
+
+ol{
+    list-style-type: none;
+}
+
+.complaint{
+
+    font-family: "Open Sans Condensed", sans-serif;
+
+}
+
+.entity{
+
+    display: inline-block;
+    padding-bottom: 25px;
+    padding-left: 30%;
+    padding-right: 25%;
+
+}
+
+#lineIn{
+    width: 4%;
+}
+
+/* CSS for MTA bullets partially taken from github.com/jsvine/mta-color */
+
+.bullet{
+
+    display: inline-block;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    width: 32px;
+    height:32px;
+    text-align: center;
+    padding:8px;
+    font-weight: bold;
+    line-height:32px;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+
+}
+
+
+#A,#C,#E{
+    background-color: #2850AD;
+}
+
+#B,#D,#F,#M{
+    background-color: #FF6319;
+}
+
+
+#G{
+    background-color: #6CBE45;
+}
+
+#J,#Z{
+    background-color: #996633;
+}
+
+#L{
+    background-color: #A7A9AC;
+}
+
+#S{
+    background-color: #808183;
+}
+
+#N, #Q, #R, #W{
+    background-color: #FCCC0A; color: #333;
+}
+
+/* workaround for number identifiers */
+
+[id = "1"],[id = "2"],[id = "3"]{
+    background-color: #EE352E;
+}
+
+[id = "4"],[id = "5"],[id = "6"]{
+    background-color: #00933C;
+}
+
+[id = "7"]{
+    background-color: #B933AD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

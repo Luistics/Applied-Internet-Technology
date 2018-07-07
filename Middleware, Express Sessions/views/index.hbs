@@ -1,0 +1,17 @@
+<!-- template for homepage -->
+
+
+<h3 class = "middleHeader">Complaints List</h3>
+
+
+<div class = "formDiv"><form method="GET">
+    Only show me complaints on the <input id = "lineIn" type="text" name="line" value=""> line.
+    <input type="submit" value = "Submit">
+</form>
+</div>
+
+<ol>
+{{#each allComplaints}}
+    <li class = "entity"><span id = {{line}} ; class = "bullet">{{line}}</span> &nbsp;&nbsp;&nbsp;<span class = "complaint">{{complaint}}</span></li>
+{{/each}}
+</ol>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mediocre Link Aggregator</title>
+	<link rel="stylesheet" href="/css/site.css" type="text/css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+<header id = "header">
+
+<div id = "headerDiv">
+        <a id = "home" href = "/">Home</a>
+{{#if user}}
+    <span class = "viewing">Logged in as {{user.username}}
+        <a href = "/article/add">Add an Article!</a>
+    </span>
+{{else}}
+    <span class = "viewing">Now viewing as guest:
+        <a href = "/register">Register</a> |
+        <a href = "/login">Login</a>
+    </span>
+{{/if}}
+</div>
+
+
+</header>
+
+<br/>
+<br/>
+
+<h1>Mediocre Link Aggregator</h1>
+<div>A dollar store reddit-like site</div>
+
+	{{{body}}}
+</body>
+</html>

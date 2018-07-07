@@ -1,0 +1,23 @@
+<!-- template for addReview -->
+
+<h2 class = "middleHeader">Add a Review</h2>
+
+
+<div id = "reviewFormDiv">
+    <form id = "reviewForm" method="POST" action = "/reviews/add">
+
+        Course Number: <input type = "text" name = "courseNumber" required><br />
+        Course Name: <input type = "text" name = "courseName" required><br /><br/>
+        Semester:
+        <select type = "text" name = "semester" required>
+            <option value = "Fall">Fall</option>
+            <option value = "Spring">Spring</option>
+            <option value = "Summer">Summer</option>
+            <option value = "Winter">Winter</option>
+        </select> <br/><br/>
+        Year: <input type="text" name="year" value="" required> <br/>
+        Professor: <input type = "text" name = "professor" value = "" required> <br/>
+        Review: <input class = "longInput" type = "text" name = "review" value = "" required> <br/><br/>
+        <input type = "submit" value = "Submit Review">
+    </form>
+</div>

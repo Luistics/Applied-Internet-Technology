@@ -1,0 +1,73 @@
+/* css */
+
+
+h1{
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+}
+
+footer > a{
+
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    padding: 0px 10px;
+    word-wrap: normal;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr{
+    width: 75%;
+    height: 3px;
+    border: none;
+    background-color: black;
+}
+
+table {
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 95%;
+    border-collapse:
+            collapse; border-spacing: 0;
+    margin:0 auto;
+}
+
+td, th { border: 1px solid #CCC; height: 30px;}
+
+th {
+    background: #F3F3F3;
+    font-weight: bold;
+}
+
+td {
+    background: #FAFAFA;
+    text-align: center;
+}
+
+
+html, body{
+    width:100%;
+}
+
+.longInput{
+    padding:60px 0px;
+}
+
+
+#body{
+    text-align: center;
+}
+
+#reviewForm{
+    margin: 0 auto;
+    width: 250px;
+
+}

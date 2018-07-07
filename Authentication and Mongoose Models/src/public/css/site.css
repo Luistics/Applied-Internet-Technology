@@ -1,0 +1,28 @@
+#header{
+    text-align:center;
+}
+
+body{
+    text-align:center;
+}
+
+#home{
+    float:left;
+}
+
+.viewing{
+    float:right;
+}
+
+
+label {
+    display:inline-block;
+    width:100px;
+}
+
+#headerDiv{
+
+    background-color: lightblue;
+    padding: 1%;
+    overflow: auto;
+}
